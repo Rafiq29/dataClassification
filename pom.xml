@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.herb</groupId>
+    <artifactId>python_project</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+<dependencies>
+    <!-- Apache POI -->
+    <dependency>
+        <groupId>org.apache.poi</groupId>
+        <artifactId>poi</artifactId>
+        <version>4.1.2</version>
+    </dependency>
+    <!-- Apache POI XDDF -->
+    <dependency>
+        <groupId>org.apache.poi</groupId>
+        <artifactId>poi-ooxml</artifactId>
+        <version>4.1.2</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/org.jfree/jfreechart -->
+    <dependency>
+        <groupId>org.jfree</groupId>
+        <artifactId>jfreechart</artifactId>
+        <version>1.5.4</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/nz.ac.waikato.cms.weka/weka-stable -->
+    <dependency>
+        <groupId>nz.ac.waikato.cms.weka</groupId>
+        <artifactId>weka-stable</artifactId>
+        <version>3.8.6</version>
+    </dependency>
+    <dependency>
+        <groupId>nz.ac.waikato.cms.weka</groupId>
+        <artifactId>weka-dev</artifactId>
+        <version>3.9.5</version>
+    </dependency>
+    <dependency>
+        <groupId>com.github.haifengl</groupId>
+        <artifactId>smile-core</artifactId>
+        <version>2.6.0</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/com.github.haifengl/smile-math -->
+    <dependency>
+        <groupId>com.github.haifengl</groupId>
+        <artifactId>smile-math</artifactId>
+        <version>2.6.0</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/com.github.haifengl/smile-data -->
+    <dependency>
+        <groupId>com.github.haifengl</groupId>
+        <artifactId>smile-data</artifactId>
+        <version>2.6.0</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
+    <dependency>
+        <groupId>org.apache.commons</groupId>
+        <artifactId>commons-lang3</artifactId>
+        <version>3.12.0</version>
+    </dependency>
+    <!-- Apache Commons Math -->
+    <dependency>
+        <groupId>org.apache.commons</groupId>
+        <artifactId>commons-math3</artifactId>
+        <version>3.6.1</version>
+    </dependency>
+
+</dependencies>
+</project>
